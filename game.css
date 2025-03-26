@@ -1,0 +1,102 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+body{
+    background-color: #F7F7F7;
+    
+}
+.cls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h2{
+    color: #FFB200;
+    font-size: 40px;
+   
+}
+.dis {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* Centers vertically */
+    height: 100vh;
+     /* Takes up the full screen height */
+    flex-direction: column;
+    gap: 20px;
+}
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.game {
+    height: 300px;
+    width: 300px;
+    background-color: #48CFCB;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.box {
+    height: 27%;
+    width: 27%;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    color: rgb(0, 21, 255);
+    background-color: #229799;
+}
+.btn {
+    height: 49px;
+    width: 85px;
+    text-align: center;
+    color: white;
+    background-color: #FFB200;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.display
+{
+    display: block;
+    height: 800px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+
+}
+.hide{
+    display: none ;
+    
+}
+
+.msg{
+    font-size: 40px;
+    color: rgb(229, 255, 0);
+}
+.btn1{
+    height: 49px;
+    width: 85px;
+    color: white;
+    background-color: #FFB200;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.btn1:hover{
+    transform: scale(1.2);
+}
