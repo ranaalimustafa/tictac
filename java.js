@@ -50,7 +50,7 @@ boxes.forEach( (box) =>
         
     })
     
-
+    
 });
 
 
@@ -66,17 +66,34 @@ function checkindexsfull(){
         {
             count++;
             
-             console.log(ind);
+             console.log(count);
+             if(count==9)
+            {
+                checkwin();
+        let c=checkwin();
+        if(c=="player1" || c=="player2")
+        {
+            msg.innerText=`you are win ${c} congratulation :`;
+            cont.className = "display" ;
+            disablebtn();
+        }
+        else
+        {
+            setTimeout(() => {
+                alert("index is full :")
+            }, 100);
+            setTimeout(() => {
+                window.location.href="/index.html";
+            }, 1000);
+        }
+            }
         }
         else
         {
             continue;
         }
       }
-    if(count==9)
-      {
-           alert("all index are full");
-      }
+    
     
     
 }
